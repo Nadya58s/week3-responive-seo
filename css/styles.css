@@ -1,8 +1,9 @@
 /** @format */
 
 :root {
-  --primary-color: #30334b;
-  --seconary-color: #dfc69f;
+  --primary-color: #fffffc;
+  --seconary-color: #4a4e69;
+  --third-color: #b392ac;
   --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.3);
 }
 
@@ -36,8 +37,8 @@ h3 {
 button {
   border-radius: 4px;
   border: 1px solid var(--primary-color);
-  background: var(--seconary-color);
-  color: var(--primary-color);
+  background: var(--third-color);
+  color: white;
   display: block;
   margin: 60px auto;
   line-height: 22px;
@@ -85,7 +86,7 @@ img {
   color: white;
 }
 .contact-link {
-  background: var(--seconary-color);
+  background: var(--third-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
@@ -98,9 +99,14 @@ img {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
+
 .about-link {
-  border: 1px solid var(--seconary-color);
-  color: var(--seconary-color);
+  border: 1px solid var(--third-color);
+  color: var(--third-color);
+}
+
+.about-link:hover{
+  color: var(--third-color);
 }
 
 .homepage-link {
@@ -173,7 +179,7 @@ img {
 .btn-branding-outline {
   border-radius: 4px;
   border: 1px solid var(--primary-color);
-  background: var(--seconary-color);
+  background: var(--third-color);
   color: var(--primary-color);
   display: block;
   margin: 60px 20px;
