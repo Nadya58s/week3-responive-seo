@@ -4,7 +4,7 @@
   --primary-color: #fffffc;
   --seconary-color: #4a4e69;
   --third-color: #b392ac;
-  --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.3);
+  --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.1);
 }
 
 body {
@@ -105,7 +105,7 @@ img {
   color: var(--third-color);
 }
 
-.about-link:hover{
+.about-link:hover {
   color: var(--third-color);
 }
 
