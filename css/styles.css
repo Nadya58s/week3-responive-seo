@@ -1,0 +1,244 @@
+/** @format */
+
+:root {
+  --primary-color: #30334b;
+  --seconary-color: #dfc69f;
+  --box-shadow: 0 5px 10px rgba(114, 111, 111, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 850px;
+  background-color: var(--primary-color);
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+
+  color: var(--seconary-color);
+}
+
+h1 {
+  font-size: 96px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  text-align: 24px;
+  opacity: 0.7;
+}
+button {
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background: var(--seconary-color);
+  color: var(--primary-color);
+  display: block;
+  margin: 60px auto;
+  line-height: 22px;
+  padding: 16px 24px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+p {
+  color: var(--seconary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+img {
+  margin-top: 50px;
+}
+
+.container-fluid {
+  margin-top: -40px;
+}
+.navigations-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 10%;
+}
+
+.navigations-links a {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.navigations-links a:hover {
+  color: white;
+}
+.contact-link {
+  background: var(--seconary-color);
+  color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link a {
+  margin: 30px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-link {
+  border: 1px solid var(--seconary-color);
+  color: var(--seconary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 43px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 15px;
+  position: inherit;
+}
+
+.navbar-collapse {
+  margin: 5px;
+  text-align: center;
+}
+
+.navbar {
+  background: var(--primary-color);
+}
+
+.nav-link {
+  color: var(--seconary-color) !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  text-align: center;
+  padding: 90px 10px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-collapse a {
+  margin: 20px;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  background: var(--seconary-color);
+  color: var(--primary-color);
+  display: block;
+  margin: 60px 20px;
+  line-height: 22px;
+  padding: 16px 24px;
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 200ms ease;
+}
+
+.col {
+  color: var(var(--seconary-color));
+  box-shadow: var(--box-shadow);
+  margin: 20px 20px;
+}
+
+.forecast-app {
+  background: none;
+  margin: 20px 20px;
+}
+
+.theme-change {
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon {
+  padding: 5px;
+  box-shadow: var(--seconary-color);
+}
+
+.about-project {
+  display: block;
+}
+
+.about-me {
+  color: var(--seconary-color);
+  text-decoration: none;
+}
+
+.about-me:hover {
+  text-decoration: underline;
+  text-transform: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  column-gap: 10%;
+}
+
+.intro-paragraph {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.contact-page {
+  margin-top: 40px;
+}
