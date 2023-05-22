@@ -10,7 +10,14 @@
       name="description"
       content="front-end web developer in U.K - Nadia Sylvester"
     />
-   <link
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -30,40 +37,52 @@
   </head>
   <body>
     <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top bg-##fffffc shadow-sm p-3 width: 100% mb-5 bg-#fffffc rounded"
+      class="navbar navbar-expand-lg navbar-light fixed-top bg-light shadow-sm p-3 width: 100% mb-5 bg-#fffffc rounded"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" fixed-top>
+        <a class="navbar-brand" href="/" fixed-top>
           <img
             src="images/logo.png"
-            alt="logo-Nadia Sylvester"
-            class="logo d-sm-block"
+            alt="logo Nadia Sylvester"
+            class="logo d-sm-block p-sm-2 mb-sm-2"
           />
         </a>
-
         <button
-          class="navbar-toggler"
+          class="navbar-toggler d-flex"
           type="button"
-          data-toggle="collapse 
+          data-toggle="collapse"
           data-target="#navbarNav"
           aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon d-none d-sm-block"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"
+            <li class="nav-item active">
+              <a
+                class="nav-link"
+                title="Top front-end developer in UK - nadiasylvester.com"
+                href="/"
                 >Home <span class="sr-only"></span
               ></a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/about.html" target="_blank">About</a>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html"
+                title="Top front-end services in UK - nadiasylvester.com"
+                target="_blank"
+                >About</a
+              >
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="/contact.html" target="_blank"
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contact - nadiasylvester.com"
+                target="_blank"
                 >Contact</a
               >
             </li>
@@ -74,12 +93,12 @@
 
     <br />
     <div class="container">
-    <div class="container contact-page">
-      <div id="contact">
-        <h2>📧 Contact me</h2>
-        <a href="mailto:nadia.emailme@gmail.com" class="email-link about-me"
-          >nadia.emailme@gmail.com</a
-        >
+      <div class="container contact-page">
+        <div id="contact">
+          <h2>📧 Contact me</h2>
+          <a href="mailto:nadia.emailme@gmail.com" class="email-link about-me"
+            >nadia.emailme@gmail.com</a
+          >
         </div>
         <footer>
           <div class="navigations-links">
