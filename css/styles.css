@@ -145,7 +145,7 @@ img {
 }
 
 .logo {
-  width: 60px;
+  width: 70px;
   margin-bottom: 15px;
   position: inherit;
 }
@@ -157,6 +157,8 @@ img {
 
 .navbar {
   background: var(--primary-color);
+  align-items: center;
+  display: flex;
 }
 
 .nav-link {
@@ -186,6 +188,7 @@ img {
 .navbar-collapse a {
   margin: 20px;
 }
+
 
 .btn-branding-outline {
   border-radius: 4px;
@@ -258,10 +261,4 @@ img {
 
 .contact-page {
   margin-top: 40px;
-}
-
-@media (min-width: 992px) {
-  .logo {
-    display: block;
-  }
 }
