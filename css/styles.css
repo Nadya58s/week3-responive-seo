@@ -95,10 +95,6 @@ p {
   box-shadow: var(--box-shadow);
 }
 
-.contact-link:hover{
-  background-color: var(--primary-color);
-  color: var(--third-color);
-}
 .contact-link a {
   margin: 30px;
   border-radius: 4px;
@@ -110,10 +106,6 @@ p {
 
 .about-link {
   border: 1px solid var(--third-color);
-  color: var(--third-color);
-}
-
-.about-link:hover {
   color: var(--third-color);
 }
 
@@ -206,6 +198,10 @@ p {
   transition: all 200ms ease;
 }
 
+.projects {
+  text-decoration: none;
+  color: white;
+}
 .col {
   color: var(var(--seconary-color));
   box-shadow: var(--box-shadow);
