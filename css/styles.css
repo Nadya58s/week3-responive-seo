@@ -60,6 +60,10 @@ p {
   text-align: center;
 }
 
+.contact-pg {
+  margin-top: 20px;
+}
+
 /* .navbar {
   height: 80px;
 }
@@ -91,12 +95,17 @@ p {
 .navigations-links a:hover {
   color: white;
 }
+
 .contact-link {
   background: var(--third-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
 
+.contact-coding {
+  margin-top: 20px;
+  display: block;
+}
 .contact-link a {
   margin: 30px;
   border-radius: 4px;
@@ -135,7 +144,7 @@ p {
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
   text-transform: none;
 }
 
